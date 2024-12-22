@@ -16,6 +16,16 @@ a {
 .weather-app {
   padding: 30px;
 }
+.temp-icons {
+  font-size: 34px;
+  font-weight: bold;
+
+  display: flex;
+}
+
+.current-city {
+  text-align: center;
+}
 .current-details {
   text-align: center;
 }
