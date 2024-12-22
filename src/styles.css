@@ -1,3 +1,7 @@
+body {
+  background-color: #27296d;
+}
+
 .weather-app {
   background-color: #c4c1e0;
   margin: 60px auto;
@@ -20,11 +24,14 @@ a {
   font-size: 34px;
   font-weight: bold;
   display: flex;
+  justify-content: center;
 }
 
 h1 {
   text-align: center;
+  padding: 8px;
   font-size: 50px;
+  text-indent: +10px;
 }
 .current-details {
   text-align: center;
@@ -34,6 +41,9 @@ h1 {
   font-size: 14px;
 }
 
+.current-temperature-icon {
+  font-size: 80px;
+}
 search-form {
   padding: 10px;
   border-bottom: 1px solid #f9f7fe;
