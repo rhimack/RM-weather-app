@@ -10,10 +10,6 @@
   font-family: "Host Grotesk", serif;
 }
 
-h1 {
-  font-size: 50px;
-}
-
 a {
   color: #27296d;
 }
@@ -26,8 +22,9 @@ a {
   display: flex;
 }
 
-.current-city {
+h1 {
   text-align: center;
+  font-size: 50px;
 }
 .current-details {
   text-align: center;
