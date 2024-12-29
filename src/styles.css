@@ -42,7 +42,8 @@ h1 {
 }
 
 .current-temperature-icon {
-  font-size: 80px;
+  width: 88px;
+  height: 88px;
 }
 search-form {
   padding: 10px;
