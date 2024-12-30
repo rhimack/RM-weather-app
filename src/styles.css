@@ -21,7 +21,7 @@ a {
   padding: 30px;
 }
 .temp-icons {
-  font-size: 34px;
+  font-size: 24px;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@ a {
 h1 {
   text-align: center;
   padding: 8px;
-  font-size: 50px;
+  font-size: 40px;
   text-indent: +10px;
 }
 .current-details {
@@ -45,9 +45,38 @@ h1 {
   width: 88px;
   height: 88px;
 }
-search-form {
+.search-form {
   padding: 10px;
   border-bottom: 1px solid #f9f7fe;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: #27296d;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 34px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #27296d;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.weather-forecast-temperature-high {
+  padding: 0 10px;
+}
+
+.weather-forecast-temperature-low {
+  padding: 0 10px;
 }
 
 .search-input {
@@ -57,7 +86,7 @@ search-form {
   color: #27296d;
   font-size: 14px;
   padding: 15px 20px;
-  width: 80%;
+  width: 85%;
 }
 
 .search-button {
