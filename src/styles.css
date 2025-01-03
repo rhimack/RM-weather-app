@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #27296d;
+  color: white;
 }
 .weather-app {
   padding: 30px;
@@ -109,5 +109,5 @@ footer {
   text-align: center;
   padding-top: 15px;
   font-family: "Host Grotesk", serif;
-  color: rgba(39, 33, 66, 0.4);
+  color: white;
 }
